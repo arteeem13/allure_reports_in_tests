@@ -1,0 +1,1 @@
+# using_allure_in_tests
