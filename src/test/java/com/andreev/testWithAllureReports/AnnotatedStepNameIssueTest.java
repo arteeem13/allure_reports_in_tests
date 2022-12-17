@@ -1,11 +1,11 @@
-package com.andreev.allureReports;
+package com.andreev.testWithAllureReports;
 
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
-import static com.andreev.allureReports.WebSteps.*;
+import static com.andreev.testWithAllureReports.WebSteps.*;
 
 @Nested
 @DisplayName("Проверка наличия issue через annotated steps")

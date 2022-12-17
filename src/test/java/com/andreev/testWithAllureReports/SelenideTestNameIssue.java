@@ -1,4 +1,4 @@
-package com.andreev.allureReports;
+package com.andreev.testWithAllureReports;
 
 
 import com.codeborne.selenide.Condition;

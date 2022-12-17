@@ -1,4 +1,4 @@
-package com.andreev.allureReports;
+package com.andreev.testWithAllureReports;
 
 
 import com.codeborne.selenide.Condition;
@@ -41,6 +41,7 @@ public class LambdaStepNameIssueTest {
 
         step("Проверяем наличие issue с названием " + NAME_ISSUE, () -> {
             $(("#issue_1_link")).shouldHave(Condition.text(NAME_ISSUE));
+            WebAttachments.takeScreenshot();
         });
     }
 }

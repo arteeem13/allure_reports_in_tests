@@ -1,4 +1,4 @@
-package com.andreev.allureReports;
+package com.andreev.testWithAllureReports;
 
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Step;
@@ -33,5 +33,6 @@ public class WebSteps {
     @Step("Проверяем наличие issue с названием {issueName}")
     public static void shouldIssueWithName(String issueName) {
         $(("#issue_1_link")).shouldHave(Condition.text(issueName));
+        WebAttachments.takeScreenshot();
     }
 }
