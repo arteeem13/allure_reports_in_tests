@@ -1,4 +1,4 @@
-package com.andreev.testWithAllureReports;
+package com.andreev.nameIssueTestWithAllure;
 
 
 import com.codeborne.selenide.Condition;
@@ -13,7 +13,7 @@ import static org.openqa.selenium.By.linkText;
 
 @Nested
 @DisplayName("Проверка наличия issue через лямбда-шаги")
-public class LambdaStepNameIssueTest {
+public class LambdaStepTest {
 
     private final static String REPOSITORY = "arteeem13/allure_reports_in_tests";
     private final static String NAME_ISSUE = "Add information in readme";
